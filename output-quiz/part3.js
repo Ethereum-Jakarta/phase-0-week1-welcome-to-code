@@ -65,4 +65,9 @@ let hoshi = ""
 for(i=0;i < input; i++){
     hoshi += "*".repeat(1)
     console.log(hoshi + "\n")
-}
+} // pake fungsi
+for(i= 0; i < input; i++){
+    if(i =>0){
+           hoshi += "*"
+} console.log(hoshi)
+}//pake logika sir
