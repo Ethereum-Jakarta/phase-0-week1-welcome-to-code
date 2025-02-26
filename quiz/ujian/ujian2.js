@@ -4,8 +4,14 @@
 
 function balikKata(kata) {
     // you can only write your code here!
-    return kata.split('').reverse().join('');
+    // return kata.split('').reverse().join('');
+    let hasil = '';
+    for( let i = kata.length - 1; i >= 0; i--) {
+        hasil += kata[i]
+    }
+    return hasil;
 };
+
 
 // TEST CASES
 console.log(balikKata('Hello World and Coders')); // sredoC dna dlroW olleH
