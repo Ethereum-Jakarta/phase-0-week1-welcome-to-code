@@ -8,7 +8,8 @@ let j = 100
 console.log('looping maju ');
 for (j = 10; j >= 0; 
     j--) 
-console.log('looping maju ' + j);    
+    console.log('looping maju ' + j);    
+   
 
     
 
