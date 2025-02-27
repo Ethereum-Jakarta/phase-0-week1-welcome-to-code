@@ -1,4 +1,4 @@
-
+`
 let pattern = "";
 for (let i = 0; i < 5; i++) {           
   for (let j = 5; j > i; j--) {
@@ -9,15 +9,14 @@ for (let i = 0; i < 5; i++) {
   }
   pattern += "\n";
 }
-console.log(pattern);
-  
+console.log(pattern); 
 `
+
 let pattern = "";
-for (let i = 1; i <= 5; i++) {           // Loop baris
-  for (let j = 1; j <= i; j++) {         // Loop kolom (bintang per baris)
+for (let i = 1; i <= 5; i++) {           
+  for (let j = 1; j <= i; j++) {        
     pattern += "*";
   }
   pattern += "\n";
 }
 console.log(pattern);
-`
