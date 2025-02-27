@@ -5,11 +5,6 @@
 //bikin fungsinya disini
 // Fungsi sebagai variabel
 // Fungsi sebagai variabel
-const potongApel = function(jumlah) {
-    return jumlah * 4; // 1 apel dipotong jadi 4 🍴
-};
-
-// Fungsi sebagai parameter (higher-order function)
 
 function shoutOut() {
     return ("halo function")

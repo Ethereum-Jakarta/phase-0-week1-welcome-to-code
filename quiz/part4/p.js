@@ -1,3 +1,4 @@
 function shoutOut() {
-    return ("halo function")
+    return "halo function"
 }
+console.log(shoutOut());
