@@ -15,7 +15,7 @@ function shoutOut() {
     return ("halo function")
 }
 
-console.log(shoutOut(3, potongApel)); // 12
+console.log(shoutOut()); // 12
 
 
 
