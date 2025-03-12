@@ -62,5 +62,6 @@ console.log('First Word: ' + exampleFirstWord + ', with length: ' + firstWordLen
 ```
 
 tulis code sesuai dengan keterangan soalnya dan pola example yang ada
+Reply soal #4: maaf ini sir.., itu yang mau di console log kok beda dengan yang kita buat yang diatas : harusnya kan yang di console.log exampleFirstWord4. atau sengaja typo biar kita2 yang solve hehe 👍😁
 
 Selamat Mengerjakan 👨🏻‍🌾
