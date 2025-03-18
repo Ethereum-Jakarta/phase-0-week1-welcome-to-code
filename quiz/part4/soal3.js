@@ -9,9 +9,9 @@ let age = 30;
 let address = "Jln. Malioboro, Yogjakarta";
 let hobby = "gaming";
 
-function processSentence (name, age, address, hobby) {
+function processSentence () {
     return "Nama saya " + name + " umur saya "+ age + " alamat saya " + address + " dan saya mempunyai hobby yaitu " + hobby;
 }
 
-let fullSentence = processSentence(name,age,address,hobby);
-console.log(fullSentence); // Menampilkan "Nama saya Agus, umur saya 30 tahun, alamat saya di Jln. Malioboro, Yogjakarta, dan saya punya hobby yaitu gaming!"
+let fullSentence = processSentence();
+console.log(fullSentence); 
