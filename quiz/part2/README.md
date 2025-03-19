@@ -44,7 +44,7 @@ console.log('First Word: ' + exampleFirstWord);
 let word3 = 'wow JavaScript is so cool';
 let exampleFirstWord3 = word3.substring(0, 3);
 
-console.log('First Word: ' + exampleFirstWord3);
+\
 ```
 
 ## Soal 4. Breaking Sentence (yet Again) and Count Each Length
