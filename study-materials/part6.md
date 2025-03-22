@@ -1,4 +1,4 @@
-# Belajar Function | Part 6
+`# Belajar Function | Part 6
 
 pada part kali ini kita akan belajar apa itu function pada javascript ya
 
