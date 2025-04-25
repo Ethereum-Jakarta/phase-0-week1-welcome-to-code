@@ -6,7 +6,8 @@ singkatnya sih disini belajar if else, namun nanti ada soal yang dimana kamu har
 
 yak Buka aja W3school dan kerjakan soal soal berikut
 
-## Soal 1:
+## Soal 1
+
 ```js
 // Kamu diminta untuk memprogram suatu game sederhana, Proxytia namanya. 
 // Untuk memulai game itu diperlukan 2 variabel (untuk sekarang), 
@@ -36,6 +37,7 @@ let nama = "", peran = "";
 ```
 
 ## Soal 2
+
 ```js
 // Kamu akan diberikan sebuah tanggal dalam tiga variabel, yaitu hari, bulan, dan tahun. Disini kamu diminta untuk membuat format tanggal. Misal tanggal yang diberikan adalah hari 1, bulan 5, dan tahun 1945. Maka, output yang harus kamu proses adalah menjadi 1 Mei 1945.
 
@@ -61,5 +63,3 @@ let tahun = 2001; // assign nilai variabel tahun disini! (dengan angka antara 19
 video biar rada paham lah, soalnya ini awal kepahitan ngoding wkwk:
 
 [Video tutor by Harkon](https://youtu.be/-YlMePibR6Y)
-
-*sisanya kalian googling aja ya ges yak*

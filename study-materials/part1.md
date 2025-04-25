@@ -13,11 +13,11 @@ terkait apa saja yang harus disiapkan adalah:
 - [Download VSCode](https://code.visualstudio.com/download)
 - [Download NodeJS](https://nodejs.org/en)
 
-# Apa itu Git ? 
+## Apa itu Git ?
 
-Mungkin pertama" kalian akan bingung apa itu git dan kenapa pemula langsung belajar git ? 
+Mungkin pertama" kalian akan bingung apa itu git dan kenapa pemula langsung belajar git ?
 
-apasih fungsi git ini sebenarnya ? 
+apasih fungsi git ini sebenarnya ?
 
 Trus kenapa materi dan resource belajar ini ada di git ? (seperti yang kalian baca readme.md skrg)
 
@@ -27,40 +27,45 @@ Git itu adalah sistem kontrol versi (version control system) yang sangat populer
 
 ![image](https://github.com/user-attachments/assets/0a94508d-0368-4ee7-9de4-c29762ff85f1)
 
-
 ### Menyimpan riwayat perubahan kode
+
 Seperti halnya Google Docs yang menyimpan riwayat editan dokumen, Git menyimpan setiap perubahan yang kalian buat pada kode. Ini memungkinkan kalian untuk kembali ke versi     sebelumnya jika ada kesalahan.
 
 ### Berkolaborasi dengan tim
+
 Git memungkinkan beberapa programmer bekerja pada proyek yang sama tanpa mengganggu pekerjaan satu sama lain. Setiap orang bisa membuat "cabang" (branch) sendiri untuk         mengerjakan fitur baru.
 
 ### Mencadangkan kode
+
 Kode kalian akan aman tersimpan di repositori Git (biasanya di platform seperti GitHub atau GitLab), sehingga tidak akan hilang meski komputer Kalian rusak.
 
 ----------------------------------------------------
 Nah ada banyak tools platform git sebenarnya, tapi disini gua akan jelasin cuman dari 2 ini aja. karena 2 ini yang sangat populer :
+
 ### GitHub (yang kita pakai)
+
 - Platform Git paling populer yang dimiliki oleh Microsoft
 - Menawarkan banyak fitur gratis dan kolaborasi
 - Sangat cocok untuk proyek open source
 - Memiliki fitur tambahan seperti GitHub Actions untuk otomatisasi
 - Interface yang ramah pengguna dan dokumentasi lengkap
 
-
 ### GitLab
+
 - Menawarkan solusi self-hosted (bisa diinstal di server sendiri)
 - Memiliki fitur CI/CD (Continuous Integration/Continuous Deployment) bawaan
 - Cocok untuk perusahaan yang membutuhkan kontrol penuh
 - Tersedia versi gratis dan berbayar
 
-
 ## Git Cheatsheet
+
 Inilah contoh list command yang akan dipakai untuk mengelola git kalian.
 
 ![image](https://github.com/user-attachments/assets/a7c923a2-2d6b-41ef-aed1-7d9af1271d23)
 
-## Instalasi Git 
-Untuk windows, kalian bisa langsung download installer nya di link : https://git-scm.com/downloads/win
+## Instalasi Git
+
+Untuk windows, kalian bisa langsung download installer nya di link : <https://git-scm.com/downloads/win>
 
 ![image](https://github.com/user-attachments/assets/2ebdbad9-db87-48e0-a9a3-bc1f7577f66a)
 
@@ -87,30 +92,32 @@ Jika sudah selesai, kalian akan langsung redirect ke dashboard github akun kalia
 
 untuk sekarang step github sampai buat akun saja, nanti kita lanjut di part 4 untuk buat repo pertama kalian dan commit pertama di git.
 
-# Daftar RPN (Fork Repo Pertama)
+## Daftar RPN (Fork Repo Pertama)
 
 Sekarang kalian perlu melakukan Fork pada repo week1 phase 0 dan melakukan pull request untuk monitoring progress tugas kalian di komunitas RPN.
 
 Fork repository di GitHub adalah proses membuat salinan independen dari repository milik orang lain ke akun GitHub kita sendiri. Ini merupakan fitur penting dalam pengembangan software kolaboratif. Mari saya jelaskan lebih detail:
 
 Konsep Dasar Fork:
+
 1. Fork menciptakan salinan lengkap repository asli, termasuk semua file, commit history, dan branches
 2. Repository hasil fork akan muncul di akun GitHub Kalian dengan referensi ke repository asli
 3. Kalian memiliki kontrol penuh atas repository hasil fork dan dapat melakukan perubahan tanpa mempengaruhi repository asli
 
 Kegunaan Fork:
+
 1. Berkontribusi ke proyek open source - Fork memungkinkan Kalian mengusulkan perubahan melalui Pull Request
 2. Menggunakan proyek yang ada sebagai starting point untuk proyek baru Kalian
 3. Bereksperimen dengan kode tanpa mempengaruhi proyek asli
 4. Menyimpan snapshot dari proyek yang mungkin berubah di masa depan
 
-## Step by step Fork Repository Phase0 week1 
+## Step by step Fork Repository Phase0 week1
 
-Pertama kalian pergi ke repo : https://github.com/RPN-Phase-0/Week1-Welcome-to-Code
+Pertama kalian pergi ke repo : <https://github.com/RPN-Phase-0/Week1-Welcome-to-Code>
 
 dan dipojok kanan atas ada button "fork", klik button forknya
 
-<img width="1728" alt="Screenshot 2025-02-20 at 21 11 07" src="https://github.com/user-attachments/assets/99d14b8b-48f3-47fc-a59b-c9b245c18ed4" />
+![<img width="1728" alt="Screenshot 2025-02-20 at 21 11 07" src="https://github.com/user-attachments/assets/99d14b8b-48f3-47fc-a59b-c9b245c18ed4" />]
 
 setelah itu kalian akan masuk kedalam section pembuatan fork untuk repo week1 welcome to code.
 
@@ -125,12 +132,13 @@ Hasilnya, kalian akan punya bentuk repo Week1-Welcome-to-Code didalam akun kalia
 ![image](https://github.com/user-attachments/assets/d9a9bc58-84cb-42dd-8f46-869c48150bcc)
 
 Setelah melakukan fork, Kalian bisa:
+
 1. Clone repository hasil fork ke komputer lokal
 2. Membuat perubahan dan melakukan commit
 3. Push perubahan ke repository fork Kalian
 4. Membuat Pull Request ke repository (Submit tugas)
 
-Copy link hasil fork repo kalian 
+Copy link hasil fork repo kalian
 
 ![image](https://github.com/user-attachments/assets/c826bdf0-8e16-45c8-b93e-078249b5704a)
 
@@ -139,12 +147,15 @@ setelah itu paste link fork repo kalian ke dalam channel discord rpn di #daftar-
 ![image](https://github.com/user-attachments/assets/8b0a73ae-4f6f-4cdb-8f26-09a602943ba4)
 
 Next stepnya kita akan set up Programming Editor menggunakan VSCode
-# VSCode  
+
+## VSCode  
+
 ![image](https://github.com/user-attachments/assets/0f51172b-e366-409c-9ddd-5f9380f74974)
 
 Programming editor adalah software khusus yang dirancang untuk menulis dan mengedit kode program. Kalau kalian sering liat programmer" lagi kerja dan tampilan dilaptopnya ada gambar diatas itu adalah tampilan dari salah satu programming editor yaitu VSCode.
 
 Editor ini memiliki fitur-fitur yang membantu programmer seperti:
+
 - Syntax highlighting (pewarnaan kode)
 - Auto-completion (saran kode otomatis)
 - Error detection (pendeteksi kesalahan)
@@ -170,16 +181,15 @@ VSCode sangat direkomendasikan untuk pemula karena mudah digunakan namun tetap m
 
 Kalian bisa langsung ke website vscodenya dan download installer VSCode di laptop kalian
 
-https://code.visualstudio.com/download
+<https://code.visualstudio.com/download>
 
 ![image](https://github.com/user-attachments/assets/8cd227be-e952-48e2-8313-9123010a5e03)
 
 Setelah kalian install VSCode, Kalian bisa buat folder belajar pertama kalian di folder atau dokumen kalian (bebas direktorinya dimana saja).
 
-Disini contoh gue buat new Folder didalam direktori "programming" 
+Disini contoh gue buat new Folder didalam direktori "programming"
 
 ![image](https://github.com/user-attachments/assets/5a4f0d16-c21d-479b-8a0b-69ae92f024ba)
-
 
 trus isi nama folder belajar pertama kalian
 
@@ -190,7 +200,6 @@ Setelah selesai buat folder (pastikan direktorinya yang kalian tau), kalian bisa
 Buka Open Folder di VSCode
 
 ![image](https://github.com/user-attachments/assets/cdbf2ac0-7df5-44bf-b05e-0b5e71f08884)
-
 
 Arahkan ke folder yang sudah kalian buat
 
@@ -206,10 +215,10 @@ Kalian bisa test dengan `CTRL + ~` , dan tampilan terminal sudah mengarah ke dir
 
 ![image](https://github.com/user-attachments/assets/d0667d21-96cc-4323-82e7-ea3c9d123ee7)
 
-
 Set Up VSCode selesai, terakhir kalian bisa langsung lanjut ke step instalasi nodejs dan buat Hello World pertama
 
-# Node JS
+## Node JS
+
 Disini kalian sebenarnya akan belajar syntax javascript, tapi akan lebih baik kalau gua jelasin dulu apa perbedaanya javascript dengan node js.
 
 JavaScript adalah bahasa pemrograman yang awalnya diciptakan untuk membuat website menjadi interaktif dan berjalan di browser. JavaScript memungkinkan developer untuk membuat fitur-fitur seperti validasi form, animasi, update konten dinamis, dan interaksi pengguna di halaman web. Bahasa ini menjadi sangat populer karena kemudahannya untuk dipelajari dan kemampuannya dalam memanipulasi HTML dan CSS.
@@ -221,6 +230,7 @@ Node.js adalah runtime environment yang memungkinkan JavaScript untuk berjalan d
 Jadi NodeJS ini salah satu tools runtime javascript , agar kita bisa running code javascript ini di sisi server. Karena pengenalan Syntax JS di RPN ini metodenya menggunakan scripting test dari terminal, kalian bakal sering running code" javascript langsung di integrated terminal VSCode menggunakan node js.
 
 ## Instalasi Node JS
+
 Untuk Instalasi Nodejs, kalian bisa langsung ke website nya node js dan download installernya seperti biasa.
 
 Ada banyak cara untuk instalasi node js, bisa dari package manager seperti brew, fnm, docker atau prebuilt installernya dri node js.
@@ -246,22 +256,21 @@ Setelah dibuka terminalnya, bisa langsung ketik node -v untuk memastikan nodejs 
 
 Instalasi NodeJS selelesai. Next, saatnya buat Hello World Pertama kalian
 
+## Hello World Pertama
 
-# Hello World Pertama
 Saat nya buat script JS pertama kalian di Environtment yang sudah kita set up dari course pertama ini.
 
 Klik kanan dibagian area left bar VSCode dan buat file "helloworld.js"
 
 ![image](https://github.com/user-attachments/assets/e9aa2f74-5e03-41da-b39a-522e3d49c8d2)
 
-buat file helloworld.js 
+buat file helloworld.js
 
 .js ini extension dari javascript, otomatis VSCode bakal membaca file itu sebagai file javascript
 
 ![image](https://github.com/user-attachments/assets/c7b49a85-8429-4c73-b340-22a61a39ddb3)
 
-
-Tulis code `console.log("Hello World!")` di line pertama kalian 
+Tulis code `console.log("Hello World!")` di line pertama kalian
 
 dan jangan lupa save editor setelah kalian ketik line nya (ctrl + save)
 
@@ -279,16 +288,18 @@ setelah itu enter
 
 Congrats!!! ini adalah experience ngoding pertama kalian. Hello World ini sangat krusial bagi para pemula, disinilah gerbang start kalian untuk belajar menjadi Software Engineer.
 
-# Submit Tugas RPN (PR Pertama)
+## Submit Tugas RPN (PR Pertama)
 
 Pull Request (PR) adalah fitur di GitHub yang memungkinkan Kalian mengusulkan perubahan kode dari repository fork atau branch Kalian ke repository utama. Ini adalah cara utama untuk berkolaborasi dalam pengembangan software. Mari saya jelaskan secara detail:
 
 Konsep Dasar Pull Request:
+
 1. PR memungkinkan Kalian menunjukkan perubahan yang telah Kalian buat dan meminta maintainer repository untuk mereview dan mengintegrasikan perubahan tersebut
 2. PR bisa berisi penambahan fitur, perbaikan bug, atau peningkatan dokumentasi
 3. PR memfasilitasi diskusi dan review kode sebelum perubahan digabungkan ke repository utama
 
 Langkah membuat Pull Request:
+
 1. Buat branch baru atau fork repository
 2. Lakukan perubahan dan commit ke branch/fork Kalian
 3. Push perubahan ke GitHub
@@ -299,6 +310,7 @@ Langkah membuat Pull Request:
 8. Submit Pull Request
 
 Best Practice Pull Request:
+
 1. Buat judul yang deskriptif dan jelas
 2. Berikan deskripsi yang menjelaskan:
    - Apa yang diubah
@@ -309,25 +321,25 @@ Best Practice Pull Request:
 5. Respond terhadap review dan feedback dengan sopan
 
 Proses Review Pull Request:
+
 1. Maintainer akan mereview perubahan kode
 2. Mereka bisa memberikan komentar atau meminta perubahan
 3. Kalian bisa melakukan update berdasarkan feedback
 4. Setelah disetujui, PR akan di-merge ke repository utama (Case di RPN PR kalian tidak perlu di merge)
 
 Status Pull Request:
+
 - Open: PR masih dalam proses review
 - Closed: PR ditolak atau tidak dilanjutkan
 - Merged: PR diterima dan digabungkan ke repository utama
 
-
-## Clone Tugas Pertama 
+## Clone Tugas Pertama
 
 Bagi yang belum cloning repository nya di local, kalian wajib melakukan clone repo terlebih dahulu. Agar kalian bisa mengerjakan tugas tugas RPN di laptop kalian sendiri.
 
-pergi ke repo fork kalian (hasil fork diatas) : https://github.com/zexoverz/Week1-Welcome-to-Code (contoh)
+pergi ke repo fork kalian (hasil fork diatas) : <https://github.com/zexoverz/Week1-Welcome-to-Code> (contoh)
 
 Setelah itu klik bagian button hijau (code), nanti kalian bisa copy command cloning repository fork week1.
-
 
 <img width="1728" alt="Screenshot 2025-02-20 at 21 29 46" src="https://github.com/user-attachments/assets/99a80190-4991-449e-8ece-a7c4f511db1e" />
 
@@ -359,7 +371,7 @@ kita tinggal masuk kedalem part 1
 
 `cd quiz/part1`
 
-dan buat file soal.js nya didalam folder itu 
+dan buat file soal.js nya didalam folder itu
 
 ![image](https://github.com/user-attachments/assets/c1dc57a9-69e4-4f2c-aec3-ec24b9b194fd)
 
@@ -391,7 +403,6 @@ sebelum kita push kalian harus konfigurasi git profile di local :
 
 ![image](https://github.com/user-attachments/assets/7bcc03da-331c-4a5d-9c7c-34d442643314)
 
-
 setelah konfigurasi selesai kalian bisa lanjut untuk commit & push.
 
 Ketik command :
@@ -410,7 +421,7 @@ setelah kalian push, maka hasilnya seperti ini :
 
 sekarang buka github kalian dan pergi ke link fork repo week1.
 
-di contoh gua : https://github.com/zexoverz/Week1-Welcome-to-Code
+di contoh gua : <https://github.com/zexoverz/Week1-Welcome-to-Code>
 
 nah kalian bisa pergi ke tab "Pull Requests" dan klik button hijau New Pull Request
 
@@ -421,7 +432,6 @@ setelah itu github akan otomatis melakukan komparasi terhadap fork repo kalian d
 selanjutnya tinggal klik create pull request
 
 ![image](https://github.com/user-attachments/assets/ee7db659-44e1-4938-81bc-d5ea7045f600)
-
 
 Isi title dengan username/nama kalian. setelah itu klik create pull request
 
@@ -441,7 +451,7 @@ dan kalian bisa lihat history pengumpulan tugas kalian di PR bagian commits
 Nah disinilah para mentor akan mereview tugas kalian menggunakan sistem pull request dari github.
 Mentor juga bakal ngasih feedback berupa comment di PR kalian.
 
-Kalian akan melakukan Fork & PR ulang, jika kalian sudah lanjut ke week2. 
+Kalian akan melakukan Fork & PR ulang, jika kalian sudah lanjut ke week2.
 
 Karena RPN memisahkan 1 Repo = 1 Week.
 
