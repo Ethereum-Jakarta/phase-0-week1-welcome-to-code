@@ -6,14 +6,17 @@
 //  untuk membentuk sebuah kalimat. Jangan lupa menambahkan spasi di setiap kata, dan
 //   tampilkan di console hasil penggabungannya! Kamu tidak perlu membuat variable baru!
 
-let word = 'JavaScript';
-let second = 'is';
-let third = 'awesome';
-let fourth = 'and';
-let fifth = 'I';
-let sixth = 'love';
-let seventh = 'it!';
+let word = "JavaScript";
+let second = "is";
+let third = "awesome";
+let fourth = "and";
+let fifth = "I";
+let sixth = "love";
+let seventh = "it!";
 
 //code here
- word += second + third + fourth + fifth + sixth + seventh;
+word += " " + second + third + fourth + fifth + sixth + " " + seventh;
+console.log(word);
+
+word += `${second} + ${third} + ${fourth} + ${fifth} + ${sixth} + ${seventh}`;
 console.log(word);
