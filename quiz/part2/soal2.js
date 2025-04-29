@@ -37,9 +37,12 @@ let exampleFivethWord =
 
 console.log("First Word: " + 
   exampleFirstWord);
-console.log("Second Word: " + exampleSecondWord);
+console.log("Second Word: " +
+  exampleSecondWord);
 console.log("Third Word: " +
   exampleThirdWord);
-console.log("Fourth Word: " + exampleFourthWord);
-console.log("Fiveth Word: " + exampleFivethWord);
+console.log("Fourth Word: " + 
+  exampleFourthWord);
+console.log("Fiveth Word: " + 
+  exampleFivethWord);
 //lanjutkan dengan struktur log diatas
