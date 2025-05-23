@@ -39,7 +39,7 @@ function Rolenya(peran, nama) {
     console.log("tapi kayaknya kamu jadi bot aja ya, peran yang kamu pilih ga ada");
   }
 }
-
+//aaa
 
 
 Rolenya(peran, nama)

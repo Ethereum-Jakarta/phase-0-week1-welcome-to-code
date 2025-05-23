@@ -14,3 +14,4 @@ let word3 = word[15] + word[16];
 let word4 = word[18] + word[19];
 let word5 = word[21] + word[22] + word[23] + word[24];
 console.log(word1 + ' ' + word2 + ' ' + word3 + ' ' + word4 + ' ' + word5);
+//aaaa
