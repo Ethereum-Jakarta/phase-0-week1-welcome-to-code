@@ -1,9 +1,9 @@
-let input = 5;
-
-for (let i = 1; i <= input; i++) {
-    let stars = "";
-    for (let j = 1; j <= i; j++) {
-        stars += "*";
-    }
-    console.log(stars);
+let i = 0;
+while (i < 10) {
+  i++;
+  console.log(`looping satu ` + i);
+}
+while (i >= 1) {
+    i--
+    console.log(`looping dua ` + i);
 }
