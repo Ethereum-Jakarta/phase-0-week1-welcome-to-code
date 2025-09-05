@@ -45,4 +45,4 @@ if (nama === "") {
   console.log(`Halo Penyihir ${Kuro}, ciptakan keajaiban yang membantu kemenanganmu!`);
 } else if (peran === "Ninja") {
   console.log(`Tapi kayaknya kamu jadi bot aja ya, peran yang kamu pilih ga ada`);
-} end
+} end 
