@@ -16,5 +16,5 @@ let seventh = 'it!';
 
 //code here
 
-console.log(`${word} ${second} ${third} ${fourth} ${fifth} ${sixth} ${seventh}`);
+console.log(`${word} ${second} ${third} ${fourth} ${fifth} ${sixth} ${seventh} `);
 console.log(`${fifth} ${sixth} ${word}`);
