@@ -4,12 +4,12 @@
 // Mirip seperti soal nomor 2, namun kali ini gunakan substring untuk mengambil potongan dari tiap kata!
 
 let word3 = 'wow JavaScript is so cool';
-let exampleFirstWord3 = word3.substring(0, 4);
-let secondWord3 = word3.substring(4, 15);
-let thirdWord3 = word3.substring(15, 18);
-let fourthWord3 = word3.substring(18, 21);
+let exampleFirstWord3 = word3.substring(0, 3);
+let secondWord3 = word3.substring(4, 14);
+let thirdWord3 = word3.substring(15, 17);
+let fourthWord3 = word3.substring(18, 20);
 let lastWord3 = word3.substring(21, 25);
-let fullWord = exampleFirstWord3 + secondWord3 + thirdWord3  + fourthWord3 + lastWord3;
+let fullWord = `${exampleFirstWord3} ${secondWord3} ${thirdWord3}  ${fourthWord3} ${lastWord3}`;
 
 console.log('First Word  : ' + exampleFirstWord3);
 console.log('Second Word : ' + secondWord3);
