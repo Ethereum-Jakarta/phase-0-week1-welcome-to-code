@@ -33,6 +33,11 @@ console.log(
     " " +
     seventh
 );
+
+// ------------------------------------
+console.log("");
+// -----------------------------------
+
 // ## Soal 2. Index Accessing - 1 by 1
 // js
 // Problem
@@ -76,6 +81,11 @@ console.log(
     " " +
     fifthWord
 );
+
+// ------------------------------------
+console.log("");
+// -----------------------------------
+
 // ## Soal 3. Breaking Sentence (Again) using Substring
 // js
 // Problem
@@ -93,6 +103,10 @@ console.log("Second Word: " + secondWord3);
 console.log("Third Word: " + thirdWord3);
 console.log("Fourth Word: " + fourthWord3);
 console.log("Fifth Word: " + fifthWord3);
+
+// ------------------------------------
+console.log("");
+// -----------------------------------
 
 // ## Soal 4. Breaking Sentence (yet Again) and Count Each Length
 // js

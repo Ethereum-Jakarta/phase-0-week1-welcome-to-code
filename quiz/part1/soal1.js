@@ -70,11 +70,11 @@ console.log(prompt);
 //dan mulailah membaca dan mencontek di stackoverflow xixixi
 
 let tanggal = 12; // assign nilai variabel tanggal disini! (dengan angka antara 1 - 31)
-let bulan = 2; // assign nilai variabel bulan disini! (dengan angka antara 1 - 12)
+let bulan = 13; // assign nilai variabel bulan disini! (dengan angka antara 1 - 12)
 let tahun = 2001; // assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)
 
 //code switch case kamu disini
-switch (bulan.toLowerCase()) {
+switch (bulan) {
   case 1:
     bulan = "Januari";
     break;
@@ -111,7 +111,11 @@ switch (bulan.toLowerCase()) {
   case 12:
     bulan = "Desember";
     break;
+  default:
+    console.log("bulan invalid");
+    return;
 }
+console.log(`${tanggal} ${bulan} ${tahun}`);
 // ---
 // video biar rada paham lah, soalnya ini awal kepahitan ngoding wkwk:
 
