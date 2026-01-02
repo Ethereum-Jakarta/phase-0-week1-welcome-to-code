@@ -1,4 +1,3 @@
-```js
 // Kamu diminta untuk memprogram suatu game sederhana, Proxytia namanya. 
 // Untuk memulai game itu diperlukan 2 variabel (untuk sekarang), 
 // yaitu nama dan peran. Variabel peran harus memiliki isi data, 
@@ -17,15 +16,14 @@
 //tapi tanpa backtick juga ga masalah sih yg penting output sesuai
 
 // algoritma
-//isi algoritma mu disini (AWAS KALO GA DI ISI!!!!)```
+//isi algoritma mu disini (AWAS KALO GA DI ISI!!!!)
 
-let nama = "", peran = "";
+let nama = "Tiko", peran = "tiko";
 
 if(nama === "") console.log("nama wajib diisi!");
 
 if(peran === "") console.log("Pilih peranmu untuk memulai game");
-
-if(peran === "Ksatria") console.log(`halo Ksatria ${nama}, kamu dapat menyerang dengan senjatamu!`);
+else if(peran === "Ksatria") console.log(`halo Ksatria ${nama}, kamu dapat menyerang dengan senjatamu!`);
 else if(peran === "Tabib") console.log(`halo Tabib ${nama} , kamu akan membantu temanmu yang terluka`);
 else if(peran === "Penyihir") console.log(`halo Penyihir ${nama} , ciptakan keajaiban yang membantu kemenanganmu!`);
 else console.log("kamu jadi bot aja ya, peran yang kamu pilih ga ada");
