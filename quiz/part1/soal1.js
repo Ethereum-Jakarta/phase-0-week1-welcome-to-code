@@ -40,13 +40,18 @@ if (nama == '') {
 }else if (peran == '') {
     console.log("pilih peranmu untuk memulai game");
 }else{
-    if (peran == 'ksatria') {
-        console.log(`halo Ksatria ${nama}, kamu dapat menyerang dengan senjatamu!`)
-    }else if (peran == 'tabib') {
-        console.log(`halo Tabib ${nama}, kamu akan membantu temanmu yang terluka`)
-    }else if (peran == 'penyihir') {
-        console.log(`halo Penyihir ${nama}, ciptakan keajaiban yang membantu kemenanganmu!`)
-    }else{
-        console.log("tapi kayaknya kamu jadi bot aja ya, peran yang kamu pilih ga ada")
+    switch (peran) {
+        case "ksatria":
+            console.log(`halo Ksatria ${nama}, kamu dapat menyerang dengan senjatamu!`)
+            break;
+        case "tabib":
+            console.log(`halo Tabib ${nama}, kamu akan membantu temanmu yang terluka`)
+            break;
+        case "penyihir":
+            console.log(`halo Penyihir ${nama}, ciptakan keajaiban yang membantu kemenanganmu!`)
+            break;
+        default:
+            console.log("tapi kayaknya kamu jadi bot aja ya, peran yang kamu pilih ga ada")
+            break;
     }
 }
