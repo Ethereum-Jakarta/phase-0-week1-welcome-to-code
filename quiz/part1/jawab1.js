@@ -1,4 +1,14 @@
 // Soal 1
+
+// Algoritma:
+// 1. Jika nama kosong, maka akan menampilkan pesan: Nama harus diisi!
+// 2. Jika peran kosong, maka akan menampilkan pesan: Pilih Peranmu untuk memulai game!
+// 3. Jika peran adalah ksatria, maka akan menampilkan pesan: kamu dapat menyerang dengan senjatamu!
+// 4.  Jika peran adalah tabib, maka akan menampilkan pesan: kamu akan membantu temanmu yang terluka
+// 5. Jika peran adalah penyihir, maka akan menampilkan pesan: ciptakan keajaiban yang membantu kemenanganmu!
+// 6. Jika peran yang dipilih tidak ada, maka akan menampilkan pesan default: Peran yang dipilih tidak ada, kamu akan menjadi bot
+
+// Kode:
 let nama = "Anton";
 let peran = "";
 
