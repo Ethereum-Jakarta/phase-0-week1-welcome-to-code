@@ -4,7 +4,13 @@
 // Jika kedua angka bernilai sama, function akan me-return -1.
 
 function bandingkanAngka(angka1, angka2) {
-  //code disini
+  if (angka1 > angka2) {
+    return false;
+  } else if (angka1 < angka2) {
+    return true;
+  } else {
+    return -1;
+  }
 }
   
   // TEST CASES
