@@ -18,8 +18,29 @@
 // algoritma
 //isi algoritma mu disini (AWAS KALO GA DI ISI!!!!)
 
+const prompt = require('prompt-sync')();
 
-let nama = "", peran = "";
+let nama = prompt("Masukkan nama pemain anda: ");
+let peran = prompt("Masukkan peran anda (ksatria, tabib, dan penyihir: ");
+let greeting = "";
+
+if(nama === ""){
+    console.log ("Nama wajib diisi");
+} else if (peran === ""){
+    console.log ("Peran wajib diisi untuk memulai game");
+} else {
+    if (peran === "ksatria"){
+        greeting = `Kesatria ${nama}, kamu dapat menyerang dengan senjatamu!`;
+    } else if (peran === "tabib"){
+        greeting = `Tabib ${nama}, kamu akan membantu temanmu yang terluka!`;
+    } else if (peran === "penyihir"){
+        greeting = `Penyihir ${nama}, ciptakan keajaiban yang membawa kemenangan!`;
+    } else {
+        greeting = `Jadi bot aja lah ${nama}`;
+    }
+}
 
 //CONTOH SOAL SELESAI
 //code disini gunakan console.log untuk outputnya
+
+console.log(greeting);
