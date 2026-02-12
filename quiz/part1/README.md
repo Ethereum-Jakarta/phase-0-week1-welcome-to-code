@@ -26,10 +26,28 @@ yak Buka aja W3school dan kerjakan soal soal berikut
 //tapi tanpa backtick juga ga masalah sih yg penting output sesuai
 
 // algoritma
-//isi algoritma mu disini (AWAS KALO GA DI ISI!!!!)
+//Buat dua variabel "nama" "peran"
+//Cek apakah "nama" kosong, Jika kosong tampilkan pesan 'nama wajib diisi'
+//cek apakah "peran" kosong, Jika kosong tampilkan peringatan 'Pilih Peranmu untuk memulai game'
+//Terdapat 3 peran berbeda Ksatria, Tabib Penyihir
+//Jika peran Ksatria tampilkan pesan "halo Ksatria ${nama} , kamu dapat menyerang dengan senjatamu!"
+//Jika peran Tabib tampilkan pesan halo Tabib ${nama} , kamu akan membantu temanmu yang terluka
+//Jika peran Penyihir tampilkan pesanhalo Penyihir ${nama} , ciptakan keajaiban yang membantu kemenanganmu!
 
 
-let nama = "", peran = "";
+let nama = "Ali", peran = "Penyihir";
+
+if (nama == "") {
+  console.log('nama wajib diisi');
+} else if (peran == "") {
+  console.log('Pilih Peranmu untuk memulai game');
+} else if (peran == "Ksatria") {
+  console.log(`Halo Ksatria ${nama}, kamu dapat menyerang dengan senjatamu!`);
+} else if (peran == "Tabib") {
+  console.log(`halo Tabib ${nama} , kamu akan membantu temanmu yang terluka`);
+} else if (peran == "Penyihir") {
+  console.log(`halo Penyihir ${nama} , ciptakan keajaiban yang membantu kemenanganmu!`);
+}
 
 //code disini gunakan console.log untuk outputnya
 
@@ -55,8 +73,55 @@ let bulan = "februari"; // assign nilai variabel bulan disini! (dengan angka ant
 let tahun = 2001; // assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)
 
 //code switch case kamu disini
-```
 
+let tanggal = 31; // Angka antara 1 - 31
+let bulan = 10; // Angka antara 1 - 12
+let tahun = 1995; // Angka antara 1900 - 2200
+
+if (tanggal < 1 || tanggal > 31)    {
+    console.log("tanggal tidak valid");
+} else if (tahun < 1900 || tahun > 2200) {
+    console.log("Tahun tidak valid")
+}
+
+switch (bulan) {
+    case 1:
+      console.log(`${tanggal} Januari ${tahun}`);
+      break;
+    case 2:
+        console.log(`${tanggal} Februari ${tahun}`);
+        break;
+    case 3:
+        console.log(`${tanggal} Maret ${tahun}`);
+        break;
+    case 4:
+        console.log(`${tanggal} April ${tahun}`);
+        break;
+    case 5:
+        console.log(`${tanggal} Mei ${tahun}`);
+        break;
+    case 6:
+        console.log(`${tanggal} Juni ${tahun}`);
+        break;
+    case 7:
+        console.log(`${tanggal} Juli ${tahun}`);
+        break;
+    case 8:
+        console.log(`${tanggal} Agustus ${tahun}`);
+        break;
+    case 9:
+        console.log(`${tanggal} September ${tahun}`);
+        break;
+    case 10:
+        console.log(`${tanggal} Oktober ${tahun}`);
+        break;
+    case 11:
+        console.log(`${tanggal} November ${tahun}`);
+        break;
+    case 12:
+        console.log(`${tanggal} Desember ${tahun}`);
+        break;
+}
 ---
 video biar rada paham lah, soalnya ini awal kepahitan ngoding wkwk:
 
