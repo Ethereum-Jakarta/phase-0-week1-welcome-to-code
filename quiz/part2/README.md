@@ -18,6 +18,8 @@ let sixth = 'love';
 let seventh = 'it!';
 
 //code here
+console.log(word+' '+second+' '+third+' '+fourth+' '+fifth+' '+sixth+' '+seventh)
+
 ```
 ## Soal 2. Index Accessing - 1 by 1
 ```js
@@ -35,6 +37,19 @@ let exampleFirstWord = word[0] + word[1] + word[2];
 
 console.log('First Word: ' + exampleFirstWord);
 //lanjutkan dengan struktur log diatas
+let SecondWord = word[4]+ word[5]+ word[6]+ word[7]+ word[8]+
+                 word[9]+ word[10]+ word[11]+ word[12]+ word[13];
+console.log('Second Word: ' + SecondWord);
+
+let ThirdWord = word[15] + word[16]
+console.log('Third Word: ' + ThirdWord);
+
+let FourthWord = word[18] + word[19]
+console.log('Foutrh Word: ' + FourthWord);
+
+let FifthWord = word[21] + word[22]+ word[23]+ word[24]
+console.log('Fifth Word: ' + FifthWord);
+
 ```
 ## Soal 3. Breaking Sentence (Again) using Substring
 ```js
@@ -45,6 +60,22 @@ let word3 = 'wow JavaScript is so cool';
 let exampleFirstWord3 = word3.substring(0, 3);
 
 console.log('First Word: ' + exampleFirstWord3);
+let word3 = 'wow JavaScript is so cool';
+let exampleFirstWord3 = word3.substring(0, 3);
+
+console.log('First Word: ' + exampleFirstWord3);
+
+let SeccondWord3 = word3.substring(4, 14);
+console.log('Second Word: ' + SeccondWord3);
+
+let ThirdWord3 = word3.substring(15, 17);
+console.log('Third Word: ' + ThirdWord3);
+
+let FourthWord3 = word3.substring(18, 20);
+console.log('Fourth Word: ' + FourthWord3);
+
+let FifthWord3 = word3.substring(21, 25);
+console.log('Fifth Word: ' + FifthWord3);
 ```
 
 ## Soal 4. Breaking Sentence (yet Again) and Count Each Length
@@ -58,7 +89,23 @@ let exampleFirstWord4 = word4.substring(0, 3);
 
 let firstWordLength = exampleFirstWord4.length;
 
-console.log('First Word: ' + exampleFirstWord + ', with length: ' + firstWordLength);
+console.log('First Word: ' + exampleFirstWord4 + ', with length: ' + firstWordLength);
+let SeccondWord4 = word4.substring(4, 14);
+let SeccondWordLength = SeccondWord4.length;
+console.log('Seccond Word: ' + SeccondWord4 + ', with length: ' + SeccondWordLength);
+
+let ThirdWord4 = word4.substring(15, 17);
+let ThirdWordLength = ThirdWord4.length;
+console.log('Third Word: ' + ThirdWord4 + ', with length: ' + ThirdWordLength);
+
+let FourthWord4 = word4.substring(18, 20);
+let FourthWordLength = FourthWord4.length;
+console.log('Fourth Word: ' + FourthWord4 + ', with length: ' + FourthWordLength);
+
+let FifthWord4 = word4.substring(21, 25);
+let FifthWordLength = FifthWord4.length;
+console.log('Fifth Word: ' + FifthWord4 + ', with length: ' +FifthWordLength);
+
 ```
 
 tulis code sesuai dengan keterangan soalnya dan pola example yang ada
