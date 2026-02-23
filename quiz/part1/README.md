@@ -28,10 +28,27 @@ yak Buka aja W3school dan kerjakan soal soal berikut
 // algoritma
 //isi algoritma mu disini (AWAS KALO GA DI ISI!!!!)
 
+//1.buat variabek nama dan peran
+//2.buat conditional statement if variabel nama kosong beri peringatan
+//jika tidak beri sambutan dan perintah memilih peran
+//3.buat conditional statement if peran ksatria maka sambut sesuai peran yang dipilih
+//4.buat conditional statement if else untuk peran selanjutnya, agar setelah mengecek
+//apakah kondisi ksatria terpenuhi dilanjutkan pengecekan peran ini sebelum dinyatakan else
+//5.buat conditional statement else untuk peran diluar 3 kondisi tersebut 
 
-let nama = "", peran = "";
+
 
 //code disini gunakan console.log untuk outputnya
+let nama = "jamal", peran = "Penyihir";
+if (nama=== "") {console.log ("nama wajib diisi")}
+else{console.log("Pilih Peranmu untuk memulai game")}
+if(peran==="Ksatria"){
+    console.log(`halo Ksatria ${nama}, kamu dapat menyerang dengan senjatamu!`)}
+else if(peran==="Tabib"){
+    console.log(`halo Tabib ${nama}, kamu akan membantu temanmu yang terluka`)}
+else if(peran==="Penyihir"){
+    console.log(`halo Penyihir ${nama}, ciptakan keajaiban yang membantu kemenanganmu!`)}
+else{console.log('tapi kayaknya kamu jadi bot aja ya, peran yang kamu pilih ga ada')}
 
 ```
 
@@ -56,7 +73,45 @@ let tahun = 2001; // assign nilai variabel tahun disini! (dengan angka antara 19
 
 //code switch case kamu disini
 ```
-
+switch(bulan){
+        case 1:
+            bulan = 'Januari'
+            break;
+        case 2:
+            bulan = 'Februari'
+            break;
+        case 3:
+            bulan = 'Maret'
+            break;
+        case 4:
+            bulan = 'April'
+            break;
+        case 5:
+            bulan = 'Mei'
+            break
+        case 6:
+            bulan = 'Juni'
+            break;
+        case 7:
+            bulan = 'Juli'
+            break;
+        case 8:
+            bulan = 'Agustus'
+            break;
+        case 9:
+            bulan = 'September'
+            break;
+        case 10:
+            bulan = 'Oktober'
+            break;
+        case 11:
+            bulan = 'November'
+            break;
+        case 12:
+            bulan = 'Desember'
+            break;
+}
+console.log(tanggal+' '+bulan+' '+tahun)
 ---
 video biar rada paham lah, soalnya ini awal kepahitan ngoding wkwk:
 

@@ -7,7 +7,8 @@
 // yang kemudian akan ditampilkan di console.
 
 //bikin fungsinya disini
-
+function ShoutOut(){
+    return`Halo Function!`}
 console.log(shoutOut());
 
 
@@ -22,7 +23,8 @@ console.log('')
 // dua parameter yang dikirim.
 
 //bikin fungsinya disini
-
+function calculateMultiply(num1, num2){
+        return (`${num1*2}  ${num2*2}`);}
 let num1 = 1
 let num2 = 2
 
@@ -40,7 +42,9 @@ console.log('')
 // "Nama saya [Name], umur saya [Age] tahun, alamat saya di [Address], dan saya punya hobby yaitu [hobby]!"
 
 //bikin fungsinya disini
-
+function processSentence(nama, age, address, hobby){
+    return(`Nama Saya ${nama}, umur saya ${age}, alamat saya di ${address}, dan saya punya hobby yaitu ${hobby}!`)
+}
 let name = "Agus";
 let age = 30;
 let address = "Jln. Malioboro, Yogjakarta";
