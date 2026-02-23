@@ -10,10 +10,7 @@ function xo(str) {
             x++;
         else if(str[i]==='o')
             o++;}
-        if(x===o)
-            return true;
-        else
-        return false
+            return x===o
         
     // you can only write your code here!
 }
