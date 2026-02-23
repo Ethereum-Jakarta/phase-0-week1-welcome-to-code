@@ -1,0 +1,35 @@
+// Soal 4. counter kelipatan
+
+// Buatlah 3 perulangan baru dari 1 - 100, dengan pertambahan counter sebesar 2, 5, dan 9.
+// Pada 3 perulangan baru ini periksa setiap angka counter:
+
+// Apabila bukan kelipatan yang ditentukan tidak perlu menuliskan apa-apa
+// Apabila angka counter adalah kelipatan 3 dengan pertambahan 2, kelipatan 6 dengan pertambahan 5, dan kelipatan 10 dengan pertambahan 9, tuliskan:
+// "3 kelipatan 3"dan seterusnya.
+
+// LOOP 1
+
+// ==== ALGORITMA ====
+// 1. Buat for loop untuk looping 1 -> 100 dengan pertambahan counter  sebesar 2 
+// 2. Cek apakah suatu angka adalah kelipatan 3 (jika bukan kelipatan yang diperlukan tidak perlu menulsikan apa-apa) jika sebaliknya kembalikan keterangan angka kelipatan 3 dan seterusnya
+
+console.log(`MENCARI KELIPATAN 3`);
+for(let i = 1; i <= 100; i += 2) {
+    if(i % 3 === 0) {
+        console.log(`${i} adalah kelipatan 3`);
+    }
+}
+
+console.log(`\nMENCARI KELIPATAN 6`);
+for(let i = 1; i <= 100; i += 5) {
+    if(i % 6 === 0) {
+        console.log(`${i} adalah kelipatan 6`);
+    }
+}
+
+console.log(`\nMENCARI KELIPATAN 10`);
+for(let i = 1; i <= 100; i += 9) {
+    if(i % 10  === 0) {
+        console.log(`${i} adalah kelipatan 10`);
+    }
+}
