@@ -3,7 +3,7 @@
 
 //bikin fungsinya disini
 
-function calculateMultiply(){
+function calculateMultiply(num1, num2){
     return num1 * num2;
 }
 
