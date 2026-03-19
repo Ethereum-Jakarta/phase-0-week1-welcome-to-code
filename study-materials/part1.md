@@ -151,7 +151,7 @@ Editor ini memiliki fitur-fitur yang membantu programmer seperti:
 - Code formatting (penataan kode)
 - File management (manajemen file)
 
-Ada berbagai macam programming editor yang umum dipakai orang, contohnya Vscdoe, IntelliJ, VIM dan old editor yang sering kalian temuin diperkuliahan notepad++.
+Ada berbagai macam programming editor yang umum dipakai orang, contohnya Vscode, IntelliJ, VIM dan old editor yang sering kalian temuin diperkuliahan notepad++.
 
 Nah disini kita pakai Vscode, VSCode salah satu programming editor yang sangat populer yang dibuat Microsoft. Beberapa keunggulan VSCode:
 

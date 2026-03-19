@@ -6,7 +6,7 @@ code hanyalah tools untuk programmer berbicara dengan komputer, otak sebenarnya 
 
 Programmer akan berfikir keras untuk membuat algoritma agar bisa menyelesaikan masalah yang mereka temukan. Algoritma ada banyak macamnya, setiap masalah" IT bisa disolve dengan berbagai kombinasi algoritma. 
 
-Banyak sekali orang menyepelekan materi algoritma ini, terhilat seperti remeh dengan flowchart" ga jelas atau algoritma deskriptif yang menyusahkan kita. Tapi sebenarnya, justru algoritma kunci utama dalam otak programmer.
+Banyak sekali orang menyepelekan materi algoritma ini, terlihat seperti remeh dengan flowchart-flowchart ga jelas atau algoritma deskriptif yang menyusahkan kita. Tapi sebenarnya, justru algoritma adalah kunci utama dalam otak programmer.
 
 Kalian bisa saja ngoding tanpa algoritma, dengan menghafal syntax yang ada. Kalian bisa saja membuat website tanpa tahu apa itu algoritma. Dengan html , css , javascript kalian bisa design website semau kalian.
 
@@ -74,7 +74,7 @@ algoritma daily activity :
 
 pada dasarnya algoritma bisa digambarkan 1 set instruksi yang kalian lakukan untuk menyelesaikan masalah.
 
-Dan setiap algoritma kalian bisa custom sesuai dengan permasalahan kalian , misalnya jam 10 kalian mempunya 2 kondisi.
+Dan setiap algoritma kalian bisa custom sesuai dengan permasalahan kalian, misalnya jam 10 kalian mempunyai 2 kondisi.
 
 jika gym nya terlalu kecapean maka jadwal jam 10 baca buku akan diskip untuk break.
 
@@ -105,7 +105,7 @@ Ya, secara rumus matematikan kalian pasti berfikir seperti ini :
 - Menggunakan operator modulo (%) untuk mengecek sisa bagi
 - Jika sisa bagi dengan 2 adalah 0, maka angka tersebut genap
 
-2 step inilah sebenarnya sudah menjadi pondasi algoritma dan cara berifkir kita untuk menyelesaikan masalah pengecekan angka genap dan ganjil.
+2 step inilah sebenarnya sudah menjadi pondasi algoritma dan cara berfikir kita untuk menyelesaikan masalah pengecekan angka genap dan ganjil.
 
 Sekarang kita terapkan dalam bentuk flowchart agar terlihat lebih jelas visualisasi algoritma untuk mengecek angka genap dan ganjil.
 
@@ -156,7 +156,7 @@ console.log(cekGenapGanjil(7));  // Output: "Ganjil"
 
 Disini kita mendefinikan fungsi cekGenapGanjil, setelah itu kita buat conditional statements untuk mengecek params (angka) , apakah angka ini Genap atau Ganjil dengan rumus algoritma yang sudah kita buat tadi.
 
-Mungkin bagi kalian yang baru belajar ngoding masih bingung melihat syntax code javscript ini. 
+Mungkin bagi kalian yang baru belajar ngoding masih bingung melihat syntax code javascript ini. 
 
 Tapi nanti seiring kalian mengikuti pembelajaran ini akan mudah memahaminya. 
 

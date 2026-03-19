@@ -58,7 +58,7 @@ let exampleFirstWord4 = word4.substring(0, 3);
 
 let firstWordLength = exampleFirstWord4.length;
 
-console.log('First Word: ' + exampleFirstWord + ', with length: ' + firstWordLength);
+console.log('First Word: ' + exampleFirstWord4 + ', with length: ' + firstWordLength);
 ```
 
 tulis code sesuai dengan keterangan soalnya dan pola example yang ada
