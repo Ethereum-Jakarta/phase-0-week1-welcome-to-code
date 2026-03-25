@@ -2,8 +2,6 @@
 
 /* 
 
-
-
 Problem :
 - Pada tugas ini kamu diminta untuk melakukan penambahan string menggunakan simbol "+".
 - Disediakan variable "word". 
