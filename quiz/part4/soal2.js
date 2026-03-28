@@ -1,0 +1,41 @@
+// Buatlah sebuah fungsi bernama calculateMultiply(), yang mengembalikan nilai berupa hasil kali dari 
+// dua parameter yang dikirim.
+
+//bikin fungsinya disini
+
+
+/*
+/////////////////////////////////////////
+        FUNCTION CALCULATE
+///////////////////////////////////////
+*/
+
+function calculateMultiply(a, b) {
+    return a * b;
+}
+
+/*
+/////////////////////////////////////////
+        ASSIGN NILAI VARIABEL
+///////////////////////////////////////
+*/
+
+let num1 = 1
+let num2 = 2
+
+let hasilPerkalian = calculateMultiply(num1,num2);
+
+
+/*
+/////////////////////////////////////////
+        CONSOLE LOG PERKALIAN
+///////////////////////////////////////
+*/
+
+console.log(hasilPerkalian);
+
+/*
+/////////////////////////////////////////
+            END OF CODE
+///////////////////////////////////////
+*/
